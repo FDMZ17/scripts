@@ -86,4 +86,4 @@ for ((i = 1; i <= episode_num; i++)); do
 
 done
 
-printf "\n\033[1;34mDownloaded $episode_num episodes!\033[0m"
+printf "\33[2K\r\033[1;34mDownloaded $episode_num episodes!"
