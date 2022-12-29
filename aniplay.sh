@@ -85,3 +85,5 @@ for ((i = 1; i <= episode_num; i++)); do
     [ -z "$fb_video" ] && printf "\33[2K\r\033[1;31m unable to fetch xstreamcdn link\033[0m" || download "https://fembed-hd.com/v/$fb_link" "$fb_video" "Xstreamcdn"
 
 done
+
+printf "\n\033[1;34mDownloaded $episode_num episodes!\033[0m"
